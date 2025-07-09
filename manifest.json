@@ -1,0 +1,61 @@
+{
+    "name": "テトリス・マスター",
+    "short_name": "テトリス",
+    "description": "クラシックなテトリスゲームをPWAで楽しもう！",
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "background_color": "#222222",
+    "theme_color": "#00ffff",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-maskable-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-maskable-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "orientation": "portrait",
+    "scope": "/",
+    "shortcuts": [
+        {
+            "name": "新しいゲーム",
+            "short_name": "New Game",
+            "description": "新しいテトリスゲームを開始します",
+            "url": "/index.html?action=newgame",
+            "icons": [
+                {
+                    "src": "/icons/new-game-icon-96x96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "ハイスコア",
+            "short_name": "High Score",
+            "description": "ハイスコアを確認します",
+            "url": "/index.html?action=highscore",
+            "icons": [
+                {
+                    "src": "/icons/highscore-icon-96x96.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}
