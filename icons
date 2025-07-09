@@ -1,0 +1,15 @@
+<meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="テトリス">
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png"> <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180x180.png"> <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png"> ```
+*注：上記のコードには、`icon-180x180.png` と `icon-152x152.png` というファイル名が含まれています。もしこれらのサイズのアイコンも用意できる場合は、PWAアイコンセットに追加し、ステップ6でアップロードしてください。用意できない場合は、`href="/icons/icon-192x192.png"` のように、用意した最も近いサイズのアイコンのパスを指定するか、該当の `<link>` 行を削除しても構いません。`manifest.json` と同じ `icon-192x192.png` を指しておくのが最もシンプルです。*
+
+---
+
+**これらのコードは、あくまで「アイコンファイルが存在する場所をブラウザに教えるための記述」です。** 実際に表示されるアイコン画像そのものは、PNG形式の画像ファイルとして別途用意し、GitHubの `icons` フォルダにアップロードする必要があります。
+
+**もう一度確認です：**
+1.  **上記のコード**を `manifest.json` と `index.html` の正しい位置に貼り付けます。
+2.  **`icon-192x192.png`, `icon-512x512.png`, `icon-maskable-192x192.png`, `icon-maskable-512x512.png` などの**画像ファイル自体**を準備し、**ステップ6** で `icons/` フォルダの中にアップロードします。
+
+この説明でアイコンに関するコードの記述とファイルの準備が明確になったでしょうか？
